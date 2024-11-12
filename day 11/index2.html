@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .waste{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,100px);
+            gap: 10px;
+        }
+        .item1{
+            grid-column: 1/4;
+        }
+        .item5{
+            grid-row: 1/5;
+        }
+        .entra-item{
+            background-color:tomato;
+            padding: 20px;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="waste "> 
+        <div class="entra-item item1">1</div>
+         <div class="entra-item">2</div>
+         <div class="entra-item">3</div>
+         <div class="entra-item">4</div>
+         <div class="entra-item item5">5</div>
+         <div class="entra-item">6</div>
+         <div class="entra-item">7</div>
+         <div class="entra-item">8</div>
+     </div>
+</body>
+</html>
