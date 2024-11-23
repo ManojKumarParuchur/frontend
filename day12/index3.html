@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            font-size: 30px;
+            color: black;
+        }
+        li:nth-child(even){
+            background-color: rgb(237, 211, 237);
+        }
+        li:nth-child(2n){
+            color: rgb(207, 105, 105);
+        }
+        h1::before{
+            content: "*";
+            color: gold;
+        }
+        h1::after{
+            content: "*";
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>items</li>
+        <li>items</li>
+        <li>items</li>
+        <li>items</li>
+        <li>items</li>
+        <li>items</li>
+    </ul>
+    <h1>pani chusko mundu</h1>
+</body>
+</html>

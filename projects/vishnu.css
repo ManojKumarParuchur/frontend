@@ -1,0 +1,101 @@
+.div1{
+    border-radius: 20px;
+    width: 100px;
+    background-color: white;
+    height: 30px;
+}
+button{
+    color: blue;
+}
+button:focus{
+    color: orange;
+}
+button:hover{
+    background-color: skyblue;
+}
+.nav1{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.container0{
+    border-radius: 10px;
+}
+
+.container01{
+    background-color: rgb(10, 134, 241);
+    border-radius: 20px;
+    background-size: cover;
+}
+.container02{
+    background-color: orange;
+    border-radius: 20px;
+    background-size: cover;
+}
+.container03{
+    background-color: skyblue;
+    border-radius: 20px;
+    background-size: cover;
+}
+.container04{
+    background-color: purple;
+    border-radius: 20px;
+    background-size: cover;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.font{
+    font-size: 8px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    place-items: center;
+    padding-left: 10px;
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(3,fr);
+    gap: 20px;
+    background: linear-gradient(45deg,pink,orange,skyblue,blue);
+    height: 500px;
+    background-size: cover;
+}
+
+h1{
+    font-size: 15px;
+    padding-left:5px;
+    place-items: start;
+}
+.p{
+    font-size: 15px;
+    padding-right:10px;
+    place-items: center;
+}
+.div0{
+    justify-content: start;
+    text-align: start;
+}
+.Movies{
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid white;
+}
+.graindent{
+    background: linear-gradient(45deg,pink,orange,skyblue);
+}
+.box{
+      transition: background-color 0.3s ease-in;
+}
+.box:hover{
+    background-color: coral;
+}
+.tickets{
+    place-items: end;
+    text-align: end;
+}
